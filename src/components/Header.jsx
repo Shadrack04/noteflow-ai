@@ -4,7 +4,7 @@ import PageNav from "./PageNav";
 
 function Header() {
   return (
-    <header className=" bg-primary-1300 flex items-center justify-between md:px-18">
+    <header className=" custom-padding bg-primary-1500 flex items-center justify-between py-2">
       <Logo />
       <PageNav />
     </header>
