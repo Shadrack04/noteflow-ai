@@ -14,7 +14,7 @@ function Sponsors() {
         Organizations powered by <span>NoteFlow</span>
       </p>
       <div className=" grid grid-cols-4 place-items-center md:gap-x-28 gap-y-8 w-full">
-        <img src={netflix} alt="netflix}  logo" className=" w-" />
+        <img src={netflix} alt="netflix logo" className="" />
         <img src={exxonMobil} alt="exxonMobile logo" className=" " />
         <img src={microsoft} alt="microsoft} logo" className="" />
         <img src={vice} alt="vice logo" className="" />
