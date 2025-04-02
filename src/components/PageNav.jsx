@@ -1,20 +1,19 @@
-import { FaArrowRight } from "react-icons/fa";
 import Button from "./Button";
 
 function PageNav() {
   return (
     <nav className="hidden flex-2 md:flex items-center justify-between">
-      <ul className=" flex items-center gap-6 text-gray-400 ">
-        <li className=" hover:text-primary-50 hover:font-medium transition-colors duration-300 cursor-pointer">
+      <ul className=" flex items-center gap-6 text-secondary-text ">
+        <li className=" hover:text-primary-text hover:font-medium transition-colors duration-300 cursor-pointer">
           Home
         </li>
-        <li className=" hover:text-primary-50 hover:font-medium transition-colors duration-300 cursor-pointer">
+        <li className=" hover:text-primary-text hover:font-medium transition-colors duration-300 cursor-pointer">
           Pricing
         </li>
-        <li className=" hover:text-primary-50 hover:font-medium transition-colors duration-300 cursor-pointer">
+        <li className=" hover:text-primary-text hover:font-medium transition-colors duration-300 cursor-pointer">
           About
         </li>
-        <li className=" hover:text-primary-50 hover:font-medium transition-colors duration-300 cursor-pointer">
+        <li className=" hover:text-primary-text hover:font-medium transition-colors duration-300 cursor-pointer">
           Community
         </li>
       </ul>
