@@ -1,9 +1,9 @@
 import React from "react";
 
-function Button({ children, type }) {
+function Button({ children, type, glow }) {
   return (
     <button
-      className={`${type} flex items-center justify-center gap-4 text-md py-2 px-4 rounded-full`}
+      className={`${type} ${glow} flex items-center justify-center gap-2 text-md py-4 px-6 rounded-full`}
     >
       {children}
     </button>
