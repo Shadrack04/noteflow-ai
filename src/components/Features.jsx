@@ -2,7 +2,7 @@ import idTopics from "/images/id-topics.png";
 import reminders from "/images/reminders.png";
 function Features() {
   return (
-    <section className=" custom-padding bg-primary-1500">
+    <section className=" custom-padding bg-primary-1500 py-20">
       <p className=" text-primary-text text-5xl font-bold text-center py-20">
         All The Tools You Need to <br />
         <span className=" text-special-text">Supercharge</span> Your Note Taking
