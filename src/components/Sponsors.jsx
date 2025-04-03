@@ -9,7 +9,7 @@ import exxonMobil from "/images/exxonMobile-logo.png";
 
 function Sponsors() {
   return (
-    <section className=" custom-padding bg-primary-1300 py-24 w-full">
+    <section className=" custom-padding bg-linear-to-b from-primary-1300 to-primary-1500 py-24 w-full">
       <p className=" text-secondary-text text-center mb-18">
         Organizations powered by <span>NoteFlow</span>
       </p>
