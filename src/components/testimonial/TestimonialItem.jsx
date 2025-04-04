@@ -1,14 +1,13 @@
 import React from "react";
 import headshot1 from "/images/headshot-01.png";
 import star from "/images/star.svg";
+import StarRating from "./StarRating";
 
 function TestimonialItem({ testimonial }) {
   const { rating, message, name, position, avatar } = testimonial;
   return (
     <div className=" max-w-[21rem] bg-primary-1300 px-6 py-8 rounded-2xl row-span-2">
-      <div className=" mb-6">
-        <img src={star} alt="" />
-      </div>
+      <StarRating rating={rating} />
       <p className=" text-secondary-text text-md leading-8 mb-14">{message}</p>
       <div className=" flex items-center gap-4">
         <img src={avatar} alt="" className=" size-12" />
