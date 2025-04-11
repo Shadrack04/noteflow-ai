@@ -1,10 +1,10 @@
 import React from "react";
 
-function Button({ children, type, glow, handleClick }) {
+function Button({ children, type, glow, handleClick, width }) {
   return (
     <button
       onClick={handleClick}
-      className={`${type} ${glow} flex items-center justify-center gap-2 text-md py-4 px-6 rounded-full`}
+      className={`${type} ${glow} ${width} flex items-center justify-center gap-2 text-md py-4 px-8 rounded-full`}
     >
       {children}
     </button>

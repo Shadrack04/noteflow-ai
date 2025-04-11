@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function PageNav() {
+function PageNav({ setOpenModal }) {
   return (
     <nav className="hidden flex-2 md:flex items-center justify-between">
       <ul className=" flex items-center gap-6 text-secondary-text ">
@@ -18,7 +18,12 @@ function PageNav() {
         </li>
       </ul>
       <div className=" flex items-center justify-center gap-4">
-        <Button type="secondary-btn">Login</Button>
+        <Button
+          handleClick={() => setOpenModal((open) => !open)}
+          type="secondary-btn"
+        >
+          Login
+        </Button>
         <Button type="primary-btn">Get Start</Button>
       </div>
     </nav>
