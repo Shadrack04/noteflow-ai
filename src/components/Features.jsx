@@ -3,8 +3,8 @@ import reminders from "/images/reminders.png";
 function Features() {
   return (
     <section className=" custom-padding bg-primary-1500 py-20">
-      <p className=" text-primary-text text-5xl font-bold text-center py-20">
-        All The Tools You Need to <br />
+      <p className=" text-primary-text text-[1.8rem] md:text-5xl font-bold text-center py-20">
+        All The Tools You Need to <br className="hidden md:flex" />
         <span className=" text-special-text">Supercharge</span> Your Note Taking
       </p>
       <div>
