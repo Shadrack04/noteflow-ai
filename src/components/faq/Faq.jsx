@@ -11,18 +11,19 @@ function Faq() {
   }
 
   return (
-    <section className=" custom-padding bg-linear-to-b from-primary-1500 to-primary-1300 py-20">
+    <section className=" custom-padding bg-linear-to-b from-primary-1500 to-primary-1300 md:py-20">
       <div>
-        <h2 className=" text-primary-text text-5xl text-center py-8">
+        <h2 className=" text-primary-text text-[1.8rem] font-bold md:text-5xl md:text-center py-8">
           Frequently Asked Questions
         </h2>
-        <p className=" text-primary-text text-center my-2">
+        <p className=" hidden md:block text-secondary-text text-center my-2">
           The most commonly asked questions about NoteFlow.
         </p>
-        <p className=" text-primary-text text-center my-2">
-          Have any other questions? Chat with our expert tech team
+        <p className="hidden md:block text-secondary-text text-center my-2 cursor-pointer">
+          Have any other questions?{" "}
+          <a className=" underline">Chat with our expert tech team</a>
         </p>
-        <div className=" flex items-center justify-center gap-4 py-8">
+        <div className=" flex flex-wrap items-center md:justify-center gap-x-2 gap-y-4 md:gap-4 py-8">
           <Button type="primary-btn" glow="glow">
             General
           </Button>

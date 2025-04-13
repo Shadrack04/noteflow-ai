@@ -17,7 +17,7 @@ function Sponsors() {
       <p className=" text-secondary-text text-center mb-18">
         Organizations powered by <span>NoteFlow</span>
       </p>
-      <div className=" grid grid-cols-2 md:grid-cols-4 place-items-center place-content-between gap-x-12 md:gap-x-28 gap-y-12 md:gap-y-8 w-full">
+      <div className=" grid grid-cols-2 md:grid-cols-4 place-items-center place-content-between gap-x-12 md:gap-x-28 gap-y-18 md:gap-y-8 w-full">
         <img
           src={netflix}
           alt="netflix logo"
