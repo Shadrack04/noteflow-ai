@@ -6,7 +6,7 @@ function PageNav({ setOpenModal, openNav, setOpenNav }) {
     <nav
       className={`${
         !openNav && "translate-x-[100%]"
-      } fixed md:static inset-0 bg-black/50 md:bg-transparent  backdrop-blur-sm transition-transform duration-300 flex-2 md:flex items-center justify-between`}
+      } fixed md:static inset-0 bg-black/50 md:translate-0 md:bg-transparent  backdrop-blur-sm transition-transform duration-300 flex-2 md:flex items-center justify-between`}
     >
       <div className=" absolute md:static right-4 top-4 bottom-4 flex flex-col md:flex-row md:items-center justify-between w-[70%] md:w-full bg-primary-1300 md:bg-transparent px-8 md:px-0 py-8 md:py-0 rounded-2xl">
         <IoClose
