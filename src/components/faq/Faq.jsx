@@ -11,7 +11,7 @@ function Faq() {
   }
 
   return (
-    <section className=" custom-padding bg-linear-to-b from-primary-1500 to-primary-1300 py-20">
+    <section className=" custom-padding bg-linear-to-b from-primary-1500 to-primary-1300 md:py-20">
       <div>
         <h2 className=" text-primary-text text-[1.8rem] font-bold md:text-5xl md:text-center py-8">
           Frequently Asked Questions

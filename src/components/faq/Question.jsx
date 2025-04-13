@@ -9,23 +9,27 @@ function Question({ data, index, openQuestion, handleClick }) {
   return (
     <div
       onClick={() => handleClick(index)}
-      className=" flex gap-6 max-w-[70%] mx-auto my-8 cursor-pointer"
+      className=" flex gap-4 md:gap-6 md:max-w-[70%] mx-auto py-2 cursor-pointer"
     >
       <img
         src={icon}
         alt=" "
-        className=" size-12 border-2 border-primary-text p-2 rounded-xl"
+        className=" size-10 md:size-12 border-2 border-primary-text p-2 rounded-xl"
       />
-      <div className=" mt-3 w-full">
+      <div className=" md:mt-3 w-full">
         <div className=" flex items-center justify-between w-full">
-          <p className=" text-primary-text text-xl mb-6">{question}</p>
+          <p className=" text-primary-text text-[1.1rem] md:text-xl mb-6">
+            {question}
+          </p>
           {!hideAnswer ? (
             <IoIosArrowUp className=" text-primary-text size-8 mb-6" />
           ) : (
             <IoIosArrowDown className=" text-primary-text size-8 mb-6" />
           )}
         </div>
-        <p className={`${hideAnswer} text-secondary-text leading-8 w-[90%]`}>
+        <p
+          className={`${hideAnswer} text-secondary-text leading-8 text-[.8rem] md:text-[1rem] w-full md:w-[90%]`}
+        >
           {answer}
         </p>
       </div>
