@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 import Button from "../Button";
 import TestimonialItem from "./TestimonialItem";
 
@@ -16,7 +18,7 @@ function Testimonials() {
         <Button type="primary-btn" glow="glow">
           Testimonials
         </Button>
-        <h2 className=" text-primary-text text-5xl leading-14 font-bold">
+        <h2 className=" text-primary-text text-[1.6rem] md:text-5xl leading-10 md:leading-14 font-bold">
           What our AI-powered <br /> notetakers have to say
         </h2>
         <p className=" text-secondary-text max-w-[30rem] leading-8">
@@ -24,7 +26,7 @@ function Testimonials() {
           edge AI note taking tools
         </p>
       </div>
-      <div className=" grid grid-cols-3  gap-y-8">
+      <div className=" grid md:grid-cols-3  gap-y-8">
         {testimonialData.map((testimonial, index) => (
           <TestimonialItem
             key={index}
@@ -36,7 +38,15 @@ function Testimonials() {
       </div>
       <div className=" flex items-center justify-center py-16">
         <Button handleClick={handleClick} type="secondary-btn">
-          {showLess ? "Show more" : "Show less"}
+          {showLess ? (
+            <>
+              Show More <IoIosArrowDown />
+            </>
+          ) : (
+            <>
+              Show Less <IoIosArrowUp />
+            </>
+          )}
         </Button>
       </div>
     </section>
