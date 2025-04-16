@@ -7,6 +7,12 @@
   --color-secondary-text: #c7f7f8;
   --color-special-text: #44e5e7;
 
+  --color-fill-light: #dafafa;
+  --color-primary-text-light: #0e2e2e;
+  --color-secondary-text-light: #1b5c5c;
+  --color-special-text-light: #061212;
+  --color-image-bg-light: #57e8e9;
+
   --color-primary-75: #dafafa;
   --color-primary-150: #b4f5f5;
   --color-primary-200: #a2f2f3;
@@ -56,9 +62,4 @@ html {
 }
 .glow {
   box-shadow: 0 0 8px var(--color-primary-500);
-}
-
-.masonry {
-  grid-template-rows: masonry;
-  align-items: start;
 }

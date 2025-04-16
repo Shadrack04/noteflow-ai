@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Button from "./components/Button";
 import "./App.css";
 import Header from "./components/Header";
@@ -10,6 +11,15 @@ function App() {
   const [openModal, setOpenModal] = useState(false);
   return (
     <div className="">
+      <Helmet>
+        <title>NoteFlow AI App</title>
+        <meta
+          name="description"
+          content="AI-Powered Notes. Organize and Summarize in Seconds
+Let AI organize & summarize your notes,
+saving you time and boosting productivity"
+        />
+      </Helmet>
       <Header setOpenModal={setOpenModal} />
       {openModal && <Modal setOpenModal={setOpenModal} />}
       <Main setOpenModal={setOpenModal} />

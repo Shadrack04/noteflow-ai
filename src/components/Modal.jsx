@@ -6,12 +6,12 @@ import Input from "./Input";
 function Modal({ setOpenModal }) {
   return (
     <div className=" fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center">
-      <div className=" relative grid grid-cols-2 w-[55%] h-[95%] rounded-xl overflow-hidden shadow-4xl">
+      <div className=" relative grid grid-cols-2 w-[85%] md:w-[55%] h-[75%] md:h-[95%] rounded-xl overflow-hidden shadow-4xl">
         <IoClose
           onClick={() => setOpenModal((open) => !open)}
           className=" absolute top-4 right-4 border-2 size-8 p-1 rounded-lg text-white cursor-pointer"
         />
-        <div className=" bg-primary-1300 flex flex-col items-center justify-center gap-6 p-8 ">
+        <div className=" hidden bg-primary-1300 md:flex flex-col items-center justify-center gap-6 p-8 ">
           <h2 className=" text-primary-text text-[2rem] text-center font-bold">
             Lets Get You Signed Up
           </h2>
@@ -20,7 +20,7 @@ function Modal({ setOpenModal }) {
           </p>
         </div>
 
-        <div className=" bg-primary-1400 p-4 flex flex-col justify-center items-center">
+        <div className=" bg-primary-900 dark:bg-primary-1400 p-4 flex flex-col justify-center items-center w-[90vw] md:w-full">
           <div className=" flex flex-col items-center my-24 ">
             <div className=" w-[90%] flex flex-col gap-4">
               <Input

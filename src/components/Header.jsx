@@ -6,7 +6,7 @@ import PageNav from "./PageNav";
 function Header({ setOpenModal }) {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <header className=" custom-padding bg-primary-1500 flex items-center justify-between py-4">
+    <header className=" custom-padding bg-primary-900 dark:bg-primary-1500 flex items-center justify-between py-4">
       <Logo />
       <PageNav
         setOpenModal={setOpenModal}
