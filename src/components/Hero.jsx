@@ -29,7 +29,7 @@ function Hero({ setOpenModal }) {
         <div>
           <img
             src={noteSummarizer}
-            alt="An image of a summarized note"
+            alt="An image of a summarized note."
             className=" md:max-w-[30rem] bg-image-bg-light dark:bg-transparent "
           />
         </div>
