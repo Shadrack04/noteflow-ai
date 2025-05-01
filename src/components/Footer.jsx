@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function Footer() {
   return (
-    <footer className=" custom-padding flex flex-col md:flex-row gap-12 md:gap-0 justify-between bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-18 pb-26">
+    <footer className=" custom-padding flex flex-col lg:flex-row gap-12 lg:gap-0 justify-between bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-18 pb-26">
       <Logo />
       <div className=" flex flex-wrap md:wrap-normal items-center md:justify-center gap-20 text-primary-text">
         <div className="-text flex flex-col gap-4">

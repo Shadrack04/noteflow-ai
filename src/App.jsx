@@ -10,7 +10,7 @@ import { useState } from "react";
 function App() {
   const [openModal, setOpenModal] = useState(false);
   return (
-    <div className="">
+    <div className=" ">
       <Helmet>
         <title>NoteFlow AI App</title>
         <meta

@@ -2,7 +2,7 @@ import idTopics from "/images/id-topics.png";
 import reminders from "/images/reminders.png";
 function Features() {
   return (
-    <section className=" custom-padding border border-amber-500 bg-primary-1500 py-20">
+    <section className=" custom-padding border border-amber-500 bg-primary-1500 py-20 ">
       <p className=" text-primary-text text-[1.8rem] md:text-5xl font-bold text-center py-20">
         All The Tools You Need to <br className="hidden lg:flex" />
         <span className=" text-special-text">Supercharge</span> Your Note Taking

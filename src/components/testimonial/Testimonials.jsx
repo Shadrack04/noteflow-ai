@@ -26,7 +26,7 @@ function Testimonials() {
           edge AI note taking tools
         </p>
       </div>
-      <div className=" grid md:grid-cols-3  gap-y-8">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-3  gap-y-8">
         {testimonialData.map((testimonial, index) => (
           <TestimonialItem
             key={index}

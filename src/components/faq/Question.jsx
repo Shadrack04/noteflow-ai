@@ -9,7 +9,7 @@ function Question({ data, index, openQuestion, handleClick }) {
   return (
     <div
       onClick={() => handleClick(index)}
-      className=" flex gap-4 md:gap-6 md:max-w-[70%] mx-auto py-2 cursor-pointer"
+      className=" flex gap-4 md:gap-6 md:max-w-[100%] lg:max-w-[70%] mx-auto py-2 cursor-pointer"
     >
       <img
         src={icon}
