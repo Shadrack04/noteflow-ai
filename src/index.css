@@ -37,7 +37,7 @@ html {
 }
 
 .custom-padding {
-  @apply px-6 md:px-24;
+  @apply px-6 md:px-10 lg:px-24;
 }
 .primary-btn {
   background-color: var(--color-primary-500);
