@@ -8,7 +8,7 @@ function PageNav({ setOpenModal, openNav, setOpenNav }) {
         !openNav && "translate-x-[100%]"
       } fixed lg:static inset-0 bg-black/50 lg:translate-0 lg:bg-transparent  backdrop-blur-sm transition-transform duration-300 flex-2 md:flex items-center justify-between`}
     >
-      <div className=" absolute lg:static right-4 top-4 bottom-4 flex flex-col lg:flex-row lg:items-center justify-between w-[70%] lg:w-full bg-primary-1300 lg:bg-transparent px-8 lg:px-0 py-8 lg:py-0 rounded-2xl overflow-auto">
+      <div className=" absolute lg:static right-4 top-4 bottom-4 flex flex-col lg:flex-row lg:items-center justify-between w-[70%] md:w-[50%] lg:w-full bg-primary-1300 lg:bg-transparent px-8 lg:px-0 py-8 lg:py-0 rounded-2xl overflow-auto">
         <IoClose
           className="lg:hidden absolute top-[2rem] left-[2rem] border-2 size-10 p-1 rounded-lg text-white cursor-pointer"
           onClick={() => setOpenNav(false)}
