@@ -6,7 +6,7 @@ import Input from "./Input";
 function Modal({ setOpenModal }) {
   return (
     <div className=" fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center">
-      <div className=" relative grid grid-cols-2 w-[85%] md:w-[55%] h-[75%] md:h-[95%] rounded-xl overflow-hidden shadow-4xl">
+      <div className=" relative grid grid-cols-2 w-[85%] lg:w-[55%] h-[75%] md:h-[85%] rounded-xl overflow-hidden shadow-4xl">
         <IoClose
           onClick={() => setOpenModal((open) => !open)}
           className=" absolute top-4 right-4 border-2 size-8 p-1 rounded-lg text-white cursor-pointer"
