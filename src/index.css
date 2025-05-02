@@ -37,7 +37,7 @@ html {
 }
 
 .custom-padding {
-  @apply px-6 md:px-24;
+  @apply px-6 md:px-10 lg:px-10 xl:px-22 2xl:px-[42rem];
 }
 .primary-btn {
   background-color: var(--color-primary-500);
@@ -62,4 +62,9 @@ html {
 }
 .glow {
   box-shadow: 0 0 8px var(--color-primary-500);
+}
+
+.header-text {
+  /* text-[1.6rem] sm:text-[2.8rem] */
+  font-size: clamp(1.6rem, 5vw, 2.8rem);
 }

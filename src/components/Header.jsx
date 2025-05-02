@@ -14,7 +14,7 @@ function Header({ setOpenModal }) {
         setOpenNav={setOpenNav}
       />
       <PiSquaresFourBold
-        className=" md:hidden text-secondary-text size-10 cursor-pointer"
+        className=" lg:hidden text-secondary-text size-10 cursor-pointer"
         onClick={() => setOpenNav(true)}
       />
     </header>
