@@ -4,11 +4,11 @@ import Visa from "../assets/svg/visa";
 
 function Footer() {
   return (
-    <footer className=" custom-padding flex flex-col lg:flex-row gap-12 lg:gap-0 justify-between bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-18 pb-26">
+    <footer className=" custom-padding flex flex-col lg:flex-row gap-12 lg:gap-0 justify-between bg-primary-900 dark:bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-18 pb-26">
       <Logo />
       <div className=" flex flex-wrap md:wrap-normal items-center md:justify-center gap-20 text-primary-text">
         <div className="-text flex flex-col gap-4">
-          <p className=" text-primary-text text-xl mb-4">Home</p>
+          <p className="  dark:text-primary-text text-xl mb-4">Home</p>
           <ul className=" flex flex-col gap-4">
             <li className=" font-light">Faq</li>
             <li className=" font-light">Features</li>

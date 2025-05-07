@@ -17,7 +17,11 @@ export default StarRating;
 const Star = ({ full }) => {
   return (
     <span>
-      <img src={full ? star : emptyStar} alt="" />
+      <img
+        src={full ? star : emptyStar}
+        alt=""
+        className=" bg-gray-900 dark:bg-transparent"
+      />
     </span>
   );
 };
