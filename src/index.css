@@ -73,3 +73,7 @@ html {
   /* text-[1.6rem] sm:text-[2.8rem] */
   font-size: clamp(1.6rem, 5vw, 2.8rem);
 }
+
+.my-masonry-column {
+  background-clip: padding-box;
+}
