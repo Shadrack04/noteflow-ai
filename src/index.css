@@ -44,6 +44,10 @@ html {
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+* {
+  transition: all 500ms ease;
+}
+
 .primary-btn {
   background-color: var(--color-primary-500);
   color: var(--color-primary-1400);

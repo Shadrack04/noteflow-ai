@@ -30,12 +30,12 @@ function PageNav({ setOpenModal, openNav, setOpenNav }) {
         <div className=" flex flex-col lg:flex-row items-center justify-center gap-4">
           <Button
             handleClick={() => setOpenModal((open) => !open)}
-            type="secondary-btn"
+            type="secondary"
             width="w-[100%] lg:w-auto"
           >
             Login
           </Button>
-          <Button type="primary-btn" width="w-[100%] lg:w-auto">
+          <Button type="primary" width="w-[100%] lg:w-auto">
             Get Start
           </Button>
         </div>

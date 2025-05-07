@@ -21,15 +21,17 @@ function Faq() {
         </p>
         <p className="hidden md:block text-secondary-text-light dark:text-secondary-text text-center my-2 cursor-pointer">
           Have any other questions?{" "}
-          <a className=" underline">Chat with our expert tech team</a>
+          <a className=" underline text-blue-500 dark:text-inherit">
+            Chat with our expert tech team
+          </a>
         </p>
         <div className=" flex flex-wrap items-center md:justify-center gap-x-2 gap-y-4 md:gap-4 py-8">
-          <Button type="primary-btn" glow="glow">
+          <Button type="primary" glow="glow">
             General
           </Button>
-          <Button type="secondary-btn">Pricing</Button>
-          <Button type="secondary-btn">Features</Button>
-          <Button type="secondary-btn">Integrations</Button>
+          <Button type="secondary">Pricing</Button>
+          <Button type="secondary">Features</Button>
+          <Button type="secondary">Integrations</Button>
         </div>
       </div>
       {questionsData.map((data, index) => (
