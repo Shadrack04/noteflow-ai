@@ -14,21 +14,21 @@ function Question({ data, index, openQuestion, handleClick }) {
       <img
         src={icon}
         alt=" "
-        className=" size-10 md:size-12 border-2 border-primary-text p-2 rounded-xl"
+        className=" size-10 md:size-12 border-2 bg-primary-text-light dark:bg-transparent border-primary-text-light dark:border-primary-text p-2 rounded-xl"
       />
       <div className=" md:mt-3 w-full">
         <div className=" flex items-center justify-between w-full">
-          <p className=" text-primary-text text-[1.1rem] md:text-xl mb-6">
+          <p className=" text-primary-text-light dark:text-primary-text text-[1.1rem] md:text-xl mb-6">
             {question}
           </p>
           {!hideAnswer ? (
-            <IoIosArrowUp className=" text-primary-text size-8 mb-6" />
+            <IoIosArrowUp className=" text-primary-text-light dark:text-primary-text size-8 mb-6" />
           ) : (
-            <IoIosArrowDown className=" text-primary-text size-8 mb-6" />
+            <IoIosArrowDown className=" text-primary-text-light dark:text-primary-text size-8 mb-6" />
           )}
         </div>
         <p
-          className={`${hideAnswer} text-secondary-text leading-8 text-[.8rem] md:text-[1rem] w-full md:w-[90%]`}
+          className={`${hideAnswer} text-secondary-text-light dark:text-secondary-text leading-8 text-[.8rem] md:text-[1rem] w-full md:w-[90%]`}
         >
           {answer}
         </p>

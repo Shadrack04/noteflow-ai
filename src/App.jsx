@@ -6,11 +6,13 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import { useState } from "react";
+import SetDarkMode from "./components/SetDarkMode";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <div className=" ">
+    <div className={darkMode ? "dark" : ""}>
       <Helmet>
         <title>NoteFlow AI App</title>
         <meta
@@ -23,6 +25,7 @@ saving you time and boosting productivity"
       <Header setOpenModal={setOpenModal} />
       {openModal && <Modal setOpenModal={setOpenModal} />}
       <Main setOpenModal={setOpenModal} />
+      <SetDarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
       <Footer />
     </div>
   );
