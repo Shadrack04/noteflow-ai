@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import Visa from "../assets/svg/visa";
 
 function Footer() {
   return (
