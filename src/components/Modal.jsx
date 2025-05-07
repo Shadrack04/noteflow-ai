@@ -40,7 +40,7 @@ function Modal({ setOpenModal }) {
                 />
                 I agree to all terms
               </label>
-              <Button type="primary-btn" width="w-[100%] inline">
+              <Button type="primary" width="w-[100%] inline">
                 Get Started
               </Button>
             </div>
