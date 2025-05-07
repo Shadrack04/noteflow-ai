@@ -15,7 +15,7 @@ function Features() {
           <img
             src={idTopics}
             alt="identifying topics"
-            className=" md:max-w-[34rem] md:h-[38rem] shadow-2xl"
+            className=" md:max-w-[34rem] md:h-[38rem] shadow-2xl rounded-2xl"
           />
           <div>
             <h2 className="text-primary-text-light dark:text-primary-text text-[1.6rem] md:text-4xl font-extrabold my-2 md:my-8 ">
@@ -44,7 +44,7 @@ function Features() {
           <img
             src={reminders}
             alt="Extracting reminders"
-            className=" md:max-w-[34rem] shadow-2xl md:h-[38rem]"
+            className=" md:max-w-[34rem] shadow-2xl md:h-[38rem] rounded-2xl"
           />
         </div>
       </div>

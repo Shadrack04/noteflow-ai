@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function Hero({ setOpenModal }) {
   return (
-    <section className=" custom-padding  dark:bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-12 lg:pt-24 lg:pb-10">
+    <section className=" custom-padding dark:bg-linear-to-b from-primary-1500 to-primary-1300 md:pt-12 lg:pt-24 lg:pb-10">
       <div className=" flex flex-col lg:flex-row py-14 md:py-0 items-start lg:items-center justify-between">
         <div className="">
           <h1 className=" text-primary-text-light dark:text-primary-text header-text font-bold">
@@ -19,7 +19,7 @@ function Hero({ setOpenModal }) {
           <div className=" my-12">
             <Button
               handleClick={() => setOpenModal((open) => !open)}
-              type="primary-btn"
+              type="primary"
               glow="glow"
             >
               Get Started <FaArrowRight className="hidden md:flex w-2" />
@@ -31,7 +31,7 @@ function Hero({ setOpenModal }) {
           <img
             src={noteSummarizer}
             alt="An image of a summarized note."
-            className=" md:max-w-[30rem] shadow-2xl dark:bg-transparent "
+            className=" md:max-w-[30rem] shadow-2xl dark:bg-transparent rounded-2xl"
           />
         </div>
       </div>
